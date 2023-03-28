@@ -8,7 +8,7 @@
  * @n: pointer parameter of type int, n
  *
  */
-void reset_to_98(int * n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
