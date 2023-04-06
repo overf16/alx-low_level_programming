@@ -7,8 +7,10 @@ int tmp_prime(int n, int i);
  * Return: boolean
  */
 
-int divisors(int n, int m) {
-	if (m % n == 0) {
+int divisors(int n, int m)
+{
+	if (m % n == 0)
+       	{
 		return (0);
 	}
 	else if (m / 2 > n)
@@ -25,8 +27,10 @@ int divisors(int n, int m) {
  * @n: integer params
  * Return: recursion
  */
-int is_prime_number(int n) {
-	if ((!(n % 2) && n != 2) || n < 2) {
+int is_prime_number(int n)
+{
+	if ((!(n % 2) && n != 2) || n < 2)
+       	{
 		return (0);
 	}
 	else
